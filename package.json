@@ -1,0 +1,15 @@
+{
+  "name": "mycss3d_youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heiko Kuschel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "three": "^0.102.1"
+  }
+}

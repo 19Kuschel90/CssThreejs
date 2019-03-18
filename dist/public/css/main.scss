@@ -1,0 +1,61 @@
+     @import 'nav';
+     @import 'css3D';
+     * {
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+     }
+     
+     html,
+     body {
+         width: 100%;
+         height: 100%;
+         //  overflow: hidden;
+         font-size: 16px;
+     }
+     
+     //  div.style.width = '480px';
+     //  div.style.height = '360px';
+     //  div.style.backgroundColor = '#000';
+     .videoContaner {
+         width: 480px;
+         height: 360px;
+         background: rgb(29, 210, 255);
+         border: solid 20px pink;
+     }
+     
+     // iframe.style.width = '480px';
+     // iframe.style.height = '360px';
+     // iframe.style.border = '0px';
+     .videoContaner iframe {
+         width: 480px;
+         height: 360px;
+         //  border: 0px;
+     }
+     
+     .logo {
+         width: 480px;
+         height: 360px;
+         border: solid 20px black;
+         border-radius: 50%;
+         overflow: hidden;
+     }
+     
+     .logo img {
+         width: 480px;
+         height: 360px;
+         //  border: 0px;
+     }
+     
+     .footerC {
+         width: 200px;
+         height: 200px;
+         padding: 30px;
+         background: aqua;
+         border-radius: 50%;
+         border: solid 20px black;
+     }
+     
+     .footerC p {
+         font-size: 2rem;
+     }

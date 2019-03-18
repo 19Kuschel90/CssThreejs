@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background: black;
+}
+
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+    list-style-type: none;
+}
+
+nav ul li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background: slategrey;
+}
+
+nav ul li a:link {
+    color: wheat;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+}
